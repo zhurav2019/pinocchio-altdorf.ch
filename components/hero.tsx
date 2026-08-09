@@ -45,7 +45,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance mb-6"
           >
-            Spielzeug, das Kinder begeistert.{' '}
+            111Spielzeug, das Kinder begeistert.{' '}
             <span className="text-amber-200">Beratung, die Eltern überzeugt.</span>
           </motion.h1>
 
