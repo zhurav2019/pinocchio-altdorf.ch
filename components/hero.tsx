@@ -56,7 +56,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-white/85 leading-relaxed mb-10 text-pretty"
           >
-            111Seit vielen Jahren ist Pinocchio in Altdorf die Adresse für hochwertiges Spielzeug,
+            222Seit vielen Jahren ist Pinocchio in Altdorf die Adresse für hochwertiges Spielzeug,
             kreative Geschenkideen und persönliche Beratung.
           </motion.p>
 
