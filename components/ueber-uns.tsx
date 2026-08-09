@@ -26,11 +26,12 @@ const testimonials = [
 ]
 
 const galleryImages = [
-  { src: '/images/shop.png', alt: 'Geschäft Pinocchio von aussen', wide: true },
-  { src: '/images/holzspielzeug.png', alt: 'Holzspielzeug im Regal' },
-  { src: '/images/about.png', alt: 'Persönliche Beratung im Geschäft' },
-  { src: '/images/kuscheltiere.png', alt: 'Kuscheltiere im Display' },
-  { src: '/images/gesellschaftsspiele.png', alt: 'Gesellschaftsspiele' },
+  { src: '/images/1.png', alt: 'Geschäft Pinocchio von aussen', wide: true },
+  { src: '/images/2.png', alt: 'Holzspielzeug im Regal' },
+  { src: '/images/3.png', alt: 'Persönliche Beratung im Geschäft' },
+  { src: '/images/4.png', alt: 'Kuscheltiere im Display' },
+  { src: '/images/5.png', alt: 'Gesellschaftsspiele' },
+  { src: '/images/6.png', alt: 'Gesellschaftsspiele' },
 ]
 
 export function UeberUns() {
