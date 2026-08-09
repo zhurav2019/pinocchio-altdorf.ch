@@ -45,7 +45,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance mb-6"
           >
-            111Spielzeug, das Kinder begeistert.{' '}
+            000Spielzeug, das Kinder begeistert.{' '}
             <span className="text-amber-200">Beratung, die Eltern überzeugt.</span>
           </motion.h1>
 
@@ -56,7 +56,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-white/85 leading-relaxed mb-10 text-pretty"
           >
-            222Seit vielen Jahren ist Pinocchio in Altdorf die Adresse für hochwertiges Spielzeug,
+            000Seit vielen Jahren ist Pinocchio in Altdorf die Adresse für hochwertiges Spielzeug,
             kreative Geschenkideen und persönliche Beratung.
           </motion.p>
 
