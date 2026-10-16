@@ -45,8 +45,9 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance mb-6"
           >
-            Spielzeug, das Kinder begeistert.{' '}
-            <span className="text-amber-200">Beratung, die Eltern überzeugt.</span>
+            Pinocchio {' '}
+            <span className="text-amber-200">Die Kinderartikelbörse die Eltern und Kinder begeistert
+.</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -56,8 +57,8 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-white/85 leading-relaxed mb-10 text-pretty"
           >
-            Seit vielen Jahren ist Pinocchio in Altdorf die Adresse für hochwertiges Spielzeug,
-            kreative Geschenkideen und persönliche Beratung.
+            Seit vielen Jahren bieten wir in der Kinderartikelbörse Pinocchio in Altdorf alles an, was Sie für Ihre Kinder zuhause (nicht mehr) brauchen. 
+            Von der Grundausstattung für Ihr  Baby bis trendige Artikel für Jugendliche finden Sie alles saisongerecht bei uns. 
           </motion.p>
 
           {/* CTA Buttons */}
