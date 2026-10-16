@@ -46,8 +46,8 @@ export function Hero() {
             className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance mb-6"
           >
             Pinocchio {' '}
-            <span className="text-amber-200">Die Kinderartikelbörse die Eltern und Kinder begeistert
-.</span>
+            <span className="text-amber-200"><br />Die Kinderartikelbörse die Eltern und Kinder begeistert.
+            </span>
           </motion.h1>
 
           {/* Subtitle */}
