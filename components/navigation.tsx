@@ -1,38 +1,3 @@
-'use client'
-
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import { Menu, X, ShoppingBag } from 'lucide-react'
-import { motion, AnimatePresence } from 'framer-motion'
-
-const navLinks = [
-  { href: '#sortiment', label: 'Sortiment' },
-  { href: '#geschenkideen', label: 'Geschenkideen' },
-  { href: '#marken', label: 'Marken' },
-  { href: '#aktuelles', label: 'Aktuelles' },
-  { href: '#ueber-uns', label: 'Über uns' },
-  { href: '#kontakt', label: 'Kontakt' },
-]
-
-export function Navigation() {
-  const [open, setOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
-
-  useEffect(() => {
-    const handler = () => setScrolled(window.scrollY > 40)
-    window.addEventListener('scroll', handler, { passive: true })
-    return () => window.removeEventListener('scroll', handler)
-  }, [])
-
-  const handleNavClick = (href: string) => {
-    setOpen(false)
-    const id = href.replace('#', '')
-    const el = document.getElementById(id)
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }
-
-  return (
-    <>
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
