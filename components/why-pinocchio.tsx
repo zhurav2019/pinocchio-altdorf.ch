@@ -55,7 +55,7 @@ export function WhyPinocchio() {
             Warum Pinocchio?
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-foreground text-balance">
-            Mehr als nur ein Spielzeuggeschäft
+            Mehr als nur ein Secondhandgeschäft
           </h2>
         </motion.div>
 
