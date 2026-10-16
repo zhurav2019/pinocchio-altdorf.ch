@@ -79,15 +79,11 @@ export function UeberUns() {
                 Ein Ort, wo Kindheitserinnerungen entstehen
               </h2>
               <p className="text-muted-foreground leading-relaxed text-pretty">
-                Pinocchio ist ein familienfreundliches Fachgeschäft in Altdorf. Unser Ziel ist es, Kindern
-                Freude zu bereiten und Eltern mit persönlicher Beratung zu unterstützen. Qualität,
-                Nachhaltigkeit und langlebiges Spielzeug stehen bei uns im Mittelpunkt.
+               Pinocchio ist ein familienfreundliches Kinderartikel-Secondhandgeschäft in Altdorf. 
+                Unsere Philosophie … es muss nicht immer alles neu sein… 
+                Nachhaltigkeit und umweltfreundlich ist uns sehr wichtig. Bei uns sparen Sie immer. 
               </p>
-              <p className="text-muted-foreground leading-relaxed mt-4 text-pretty">
-                Wir glauben, dass gutes Spielzeug mehr ist als Unterhaltung – es fördert Kreativität,
-                soziale Fähigkeiten und das Entdecken der Welt. Jedes Produkt in unserem Sortiment wurde
-                mit Bedacht ausgewählt.
-              </p>
+              
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
