@@ -12,8 +12,8 @@ const features = [
   },
   {
     icon: Award,
-    title: 'Hochwertige Marken',
-    description: 'Sorgfältig ausgewählte Hersteller mit hoher Qualität.',
+    title: 'Kleider / Schuhe',
+    description: 'Verschiedene Kleider- und Schuhmarken in allen Grössen (Baby – Teenager), auch viele Markenartikel.',
     color: 'bg-accent/10 text-accent',
   },
   {
@@ -25,7 +25,7 @@ const features = [
   {
     icon: MapPin,
     title: 'Regional',
-    description: 'Ihr Spielwarengeschäft im Herzen von Altdorf.',
+    description: 'Ihre Kinderartikelbörse im Herzen von Altdorf.',
     color: 'bg-secondary text-foreground',
   },
 ]
