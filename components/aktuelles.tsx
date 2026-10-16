@@ -9,15 +9,15 @@ const news = [
     title: 'Die schönsten Spielzeugtrends 2025',
     excerpt:
       'Nachhaltigkeit, Holzspielzeug und kreative Bauspiele sind die grossen Themen dieses Jahr. Entdecken Sie unsere Neuheiten direkt im Geschäft.',
-    date: 'Juli 2025',
+    date: 'Juli 2026',
     color: 'bg-amber-50 border-amber-200 text-amber-700',
   },
   {
     category: 'Geschenkideen',
     title: 'Herbst & Weihnachten – frühzeitig schenken',
     excerpt:
-      'Damit unter dem Tannenbaum das Richtige liegt: Wir helfen Ihnen schon jetzt bei der Auswahl und reservieren Ihr Wunschgeschenk.',
-    date: 'August 2025',
+      'Grosses Spielzeugsortiment wie Playmobil, Lego, Lernspiele, Puzzles, Bücher, Gesellschaftsspiele von 0-99 Jahre oder einen Gutschein vom Pinocchio.',
+    date: 'August 2026',
     color: 'bg-red-50 border-red-200 text-red-700',
   },
   {
