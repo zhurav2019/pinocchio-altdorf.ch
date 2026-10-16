@@ -5,13 +5,14 @@ import { motion } from 'framer-motion'
 import { MapPin, Phone, Mail, Clock, Navigation, PhoneCall, Send, CheckCircle } from 'lucide-react'
 
 const hours = [
-  { day: 'Montag', time: '09:00–12:00 / 13:30–18:30' },
-  { day: 'Dienstag', time: '09:00–12:00 / 13:30–18:30' },
-  { day: 'Mittwoch', time: '09:00–12:00 / 13:30–18:30' },
-  { day: 'Donnerstag', time: '09:00–12:00 / 13:30–18:30' },
-  { day: 'Freitag', time: '09:00–12:00 / 13:30–18:30' },
-  { day: 'Samstag', time: '09:00–16:00' },
-  { day: 'Sonntag', time: 'Geschlossen' },
+  
+  { day: 'Dienstag', time: '09.00 bis 11.30 Uhr / 13.30 bis 17.30 Uhr' },
+  { day: 'Freitag', time: '13.30 bis 17.30 Uhr' },
+  { day: 'Donnerstag', time: '9.00 bis 11.30 Uhr /13.30  bis 17.30 Uhr nur an folgenden Daten geöffnet' },
+  
+  { day: '2026', time: '17.9.26, 22.10.26/19.11.26/10.12.26' },
+  { day: '2027', time: '11.3.27 / 8.4.27 / 20.5.27 / 23.9.27 / 21.10.27 / 11.11.27/ 9.12.27' },
+  { day: 'Im Dezember haben wir zusätzlich Samstagmorgen von 9.00 – 11.30 Uhr geöffnet', time: '' },
 ]
 
 export function Kontakt() {
