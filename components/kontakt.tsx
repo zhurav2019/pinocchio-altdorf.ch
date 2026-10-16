@@ -41,7 +41,7 @@ export function Kontakt() {
             Besuchen Sie uns in Altdorf
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            Wir freuen uns auf Ihren Besuch – persönlich, telefonisch oder per E-Mail.
+            Pinocchio Kinderartikelbörse.
           </p>
         </motion.div>
 
@@ -62,7 +62,7 @@ export function Kontakt() {
                 </div>
                 <div>
                   <p className="font-semibold text-sm text-foreground mb-0.5">Adresse</p>
-                  <p className="text-sm text-muted-foreground">Musterstrasse 5<br />6460 Altdorf (UR)</p>
+                  <p className="text-sm text-muted-foreground">Seilergasse 1<br />6460 Altdorf (UR)</p>
                 </div>
               </div>
               <div className="bg-card border border-border rounded-2xl p-5 flex items-start gap-3">
@@ -122,7 +122,7 @@ export function Kontakt() {
                 Route planen
               </a>
               <a
-                href="tel:+41411234567"
+                href="tel: 041 870 16 16"
                 className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-secondary border border-border text-foreground font-semibold text-sm hover:bg-border transition-colors"
               >
                 <PhoneCall className="w-4 h-4" aria-hidden="true" />
