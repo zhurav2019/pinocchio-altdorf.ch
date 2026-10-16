@@ -8,52 +8,42 @@ import { Search } from 'lucide-react'
 const categories = [
   {
     name: 'Kinderschuhe',
-    description: 'Bequeme und hochwertige Schuhe – für kleine Füsse, die jeden Tag die Welt entdecken.',
+    description: 'Bequeme und hochwertige Schuhe in allen Grössen (18 – 45).',
     image: '/images/Kinderschuhe.png',
     tag: 'Kinderschuhe',
   },
   {
     name: 'Kinderkleidung',
-    description: 'Bequeme und liebevoll ausgewählte Kleidung – für kleine Abenteurer und grosse Entdeckungen.',
+    description: 'Alltags-, Outdoor-, Fest-  und Freizeitkleider in allen Grössen (50 – 176).',
     image: '/images/Kinderkleidung.png',
     tag: 'Kinderkleidung',
   },
   {
-    name: 'Kinderwagen',
-    description: 'Praktische und komfortable Begleiter – für entspannte Spaziergänge mit den Kleinsten.',
+    name: 'Babyausstattung',
+    description: 'Alles für die Kleinsten,  Kinderbetten, Kinderwagen, Autositze, Wickeltische, Badewannen, Schoppenflaschen, Babykleider und vieles mehr.',
     image: '/images/Kinderwagen.png',
     tag: 'Kinderwagen',
   },
   {
     name: 'Sportartikel',
-    description: 'Bewegung, Spiel und Spass – für aktive Kinder, die gerne draussen und drinnen unterwegs sind.',
+    description: 'Fussballschuhe, Turnschuhe, Sport- und Skiausrüstung für aktive Kinder <br /> Plüschtiere (streichen).',
     image: '/images/Sportartikel.png',
     tag: 'Sportartikel',
   },
   {
-    name: 'Plüschtiere',
-    description: 'Kuschelige Freunde zum Liebhaben – für kleine Kinderhände und grosse Gefühle.',
+    name: 'Spielzeug',
+    description: 'Gesellschafts- und  Geschicklichkeitsspiele, Puzzles, Playmobile, Lego und vieles mehr für neugierige Kinder, die gerne Neues ausprobieren.',
     image: '/images/Plüschtiere.png',
     tag: 'Plüschtiere',
   },
-  {
-    name: 'Interaktives Spielzeug',
-    description: 'Spielen, entdecken und lernen – für neugierige Kinder, die gerne Neues ausprobieren.',
-    image: '/images/InteraktivesSpielzeug.png',
-    tag: 'Interaktives Spielzeug',
-  },
-  {
-    name: 'Spielzeug',
-    description: 'Fantasievolles Spielzeug zum Entdecken und Spielen – für kleine Entdecker mit grosser Fantasie.',
-    image: '/images/Spielzeug.png',
-    tag: 'Spielzeug',
-  },
-  {
+ {
     name: 'Schwimmartikel',
-    description: 'Spiel und Spass im Wasser – für unbeschwerte Stunden im Schwimmbad, am See oder am Meer.',
+    description: 'Badekleider und Schwimmhilfen haben wir das ganze Jahr im Sortiment.',
     image: '/images/Schwimmartikel.png',
     tag: 'Schwimmartikel',
   },
+
+  
 ];
 
 const containerVariants = {
@@ -92,8 +82,7 @@ export function Sortiment() {
             Entdecken Sie unser Sortiment
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed text-pretty">
-            Von klassischem Holzspielzeug bis zu modernen Kreativsets – wir führen sorgfältig ausgewähltes
-            Spielzeug für jedes Alter.
+           Sie finden alles für Ihre Kinder bei uns, von der Erstausstattung für Ihr Baby bis zu trendigen Artikeln für Teenager.
           </p>
         </motion.div>
 
