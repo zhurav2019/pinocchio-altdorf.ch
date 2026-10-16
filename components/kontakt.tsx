@@ -134,10 +134,10 @@ export function Kontakt() {
             <div className="rounded-3xl overflow-hidden border border-border bg-muted h-56 flex items-center justify-center">
               <div className="text-center space-y-2">
                 <MapPin className="w-8 h-8 text-muted-foreground mx-auto" aria-hidden="true" />
-                <p className="text-sm text-muted-foreground font-medium">Pinocchio Spielwaren</p>
-                <p className="text-xs text-muted-foreground">Musterstrasse 5, 6460 Altdorf</p>
+                <p className="text-sm text-muted-foreground font-medium">Pinocchio Kinderartikelbörse</p>
+                <p className="text-xs text-muted-foreground">Seilergasse 1, 6460 Altdorf</p>
                 <a
-                  href="https://maps.google.com/?q=Altdorf+Uri+Schweiz"
+                  href="https://www.google.com/maps/search/?api=1&query=Seilergasse+1,+6460+Altdorf,+Switzerland"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block text-xs text-primary hover:underline"
