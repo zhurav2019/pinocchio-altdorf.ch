@@ -71,8 +71,8 @@ export function Kontakt() {
                 </div>
                 <div>
                   <p className="font-semibold text-sm text-foreground mb-0.5">Telefon</p>
-                  <a href="tel:+41411234567" className="text-sm text-primary hover:underline">
-                    +41 41 123 45 67
+                  <a href="tel:041 870 16 16" className="text-sm text-primary hover:underline">
+                    041 870 16 16
                   </a>
                 </div>
               </div>
